@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.13.0",
-        "tailwindcss": "^1.4.6"
+        "tailwindcss": "^1.4.6",
+        "vue": "^2.6.11"
     }
 }
