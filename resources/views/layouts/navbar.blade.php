@@ -1,6 +1,6 @@
 <div class="bg-gray-100 pt-0 pb-8">
 
-    <div class="w-full bg-blue-400 h-3"></div>
+    <div class="w-full bg-blue-500 h-3"></div>
 
     <div class="bg-gray-100 z-100 bg-white flex items-center">
         <div class="w-full max-w-screen-xl relative mx-auto px-6">
