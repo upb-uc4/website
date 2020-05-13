@@ -1,5 +1,7 @@
 <div class="bg-gray-100 pt-24 lg:pt-0 pb-8">
 
+    <div class="w-full bg-blue-400 h-3"></div>
+
     <div class="fixed z-100 bg-white inset-x-0 top-0 lg:static flex items-center">
         <div class="w-full max-w-screen-xl relative mx-auto px-6">
             <div class="h-24 flex flex-col justify-center">
