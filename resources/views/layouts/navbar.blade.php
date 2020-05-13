@@ -4,12 +4,21 @@
 
     <div class="bg-gray-100 z-100 bg-white flex items-center">
         <div class="w-full max-w-screen-xl relative mx-auto px-6">
-            <div class="border-b-2 border-gray-200 h-24 flex flex-col justify-center">
+            <div class="border-b-2 border-gray-200 h-16 flex flex-col justify-center">
                 <div class="flex items-center justify-between">
 
                     <div class="flex items-center">
                         <a href="/" class="block">
-                            <h1 class="text-2xl text-gray-800 font-bold">University Credits 4.0</h1>
+                            <h1 class="xl:text-2xl lg:text-xl md:text-lg text-gray-800 font-bold"><span class="text-blue-700">U</span>niversity <span class="text-blue-700">C</span>redits <span class="text-blue-700">4</span>.0</h1>
+                        </a>
+                    </div>
+
+                    <div class="flex items-center">
+                        <a href="/about/people" class="block">
+                            <p class="tracking-wide text-gray-800 mr-8">About us</p>
+                        </a>
+                        <a href="/" class="block">
+                            <p class="tracking-wide text-gray-800 mr-8">FAQ</p>
                         </a>
                     </div>
 
