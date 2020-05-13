@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="h-screen font-sans">
+    <div class="h-full bg-gray-100 font-sans">
 
-        <div class="mb-4 mt-8 mx-auto">
+        <div class="mb-4 mx-auto">
             <h1 class="text-4xl text-gray-800 text-center font-extrabold">Meet the Team</h1>
         </div>
 

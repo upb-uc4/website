@@ -1,8 +1,8 @@
-<div class="bg-gray-100 pt-24 lg:pt-0">
+<div class="bg-gray-100 pt-24 lg:pt-0 pb-8">
 
-    <div class="fixed z-100 bg-gray-100 inset-x-0 top-0 border-b-2 border-gray-200 lg:border-b-0 lg:static flex items-center">
+    <div class="fixed z-100 bg-white inset-x-0 top-0 lg:static flex items-center">
         <div class="w-full max-w-screen-xl relative mx-auto px-6">
-            <div class="lg:border-b-2 lg:border-gray-200 h-24 flex flex-col justify-center">
+            <div class="h-24 flex flex-col justify-center">
                 <div class="flex items-center justify-between">
 
                     <div class="flex items-center">
