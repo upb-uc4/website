@@ -31,20 +31,25 @@
     
     ```DB_HOST=mariadb```, 
     
+    ```DB_DATABASE=uc4```,
+    
     ```DB_USERNAME=root```,
     
     ```DB_PASSWORD=root```
-9. Open your browser and navigate to phpmyadmin on ```localhost:8080```
+9. > As we don't need a database yet, you could skip step 9 and 10
 
-   Login with ```server=mariadb```, ```username=root```, ```password=root```
+    Open your browser and navigate to phpmyadmin on ```localhost:8080``` and
+
+    login with ```server=mariadb```, ```username=root```, ```password=root```
    
-10. Inside this git repository run ```docker-compose exec workspace bash```. This will connect you to the dockerized server
+10. Create a new database with the name ```uc4```.
+11. Inside this git repository run ```docker-compose exec workspace bash```. This will connect you to the dockerized server
   
-11. Run ```php artisan key:generate``` in order to generate an ```APP_KEY``` right into your ```.env``` file
+12. Run ```php artisan key:generate``` in order to generate an ```APP_KEY``` right into your ```.env``` file
    
-12. Run ```npm run watch``` to generate all required css and js files
+13. Run ```npm run watch``` to generate all required css and js files
 
-13. Navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website
+14. Navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website
 
 If you got any problems with the setup process, feel free to contact Theo
 
