@@ -1,8 +1,8 @@
-<div class="bg-gray-100 pt-24 lg:pt-0 pb-8">
+<div class="bg-gray-100 pt-0 pb-8">
 
     <div class="w-full bg-blue-400 h-3"></div>
 
-    <div class="fixed bg-gray-100 z-100 bg-white inset-x-0 top-0 lg:static flex items-center">
+    <div class="bg-gray-100 z-100 bg-white flex items-center">
         <div class="w-full max-w-screen-xl relative mx-auto px-6">
             <div class="border-b-2 border-gray-200 h-24 flex flex-col justify-center">
                 <div class="flex items-center justify-between">
