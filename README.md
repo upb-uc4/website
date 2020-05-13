@@ -1,3 +1,11 @@
+## Screenshots
+
+### Landing Page Draft
+![Landing Page (First Draft)](./public/img/screenshots/landing.png)
+
+### About Page Draft
+![About (First Draft)](./public/img/screenshots/about.png)
+
 ## Run this project locally with Docker
 
 ```git clone https://github.com/Laradock/laradock.git```
