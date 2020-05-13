@@ -3,8 +3,12 @@
 @section('content')
     <div class="h-full bg-gray-100 font-sans">
 
-        <div class="mb-4 mx-auto">
+        <div class="mb-2 mx-auto">
             <h1 class="text-4xl text-gray-800 text-center font-extrabold">Meet the Team</h1>
+        </div>
+
+        <div class="flex justify-center mb-4 mx-auto">
+            <div class="w-1/4 border-b-4 border-blue-500"></div>
         </div>
 
         <div class="w-1/2 mb-12 mx-auto">
