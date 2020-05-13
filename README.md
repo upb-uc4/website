@@ -8,34 +8,45 @@
 
 ## Run this project locally with Docker
 
-```git clone https://github.com/Laradock/laradock.git```
+1. ```git clone https://github.com/Laradock/laradock.git```
+2. ```cp env-example .env```
+3. Modify the following lines in the generated ```.env``` file:
+    
+    ```APP_CODE_PATH_HOST=../PATH_TO_THIS_PROJECT```
 
-```cp env-example .env```
+    ```PMA_DB_ENGINE=mariadb```
+    
+    ```APACHE_DOCUMENT_ROOT=/var/www/public```.
 
-Adjust the .env file at several locations (you can simply search for the keys):
+4. Save the file
+5. Spin up the docker containers; this may take a while:
 
-Set the projects path to 
-```APP_CODE_PATH_HOST=../PATH_TO_THIS_PROJECT```
+    ```docker-compose up -d apache2 mariadb phpmyadmin```. 
 
-Set the DB Engine to
-```PMA_DB_ENGINE=mariadb```
+6. Head to the website directory (this repo) 
+7. Rename  ```.env.example```  to ```.env```
+8. Modify the renamed ```.env```:
 
-Finally, set the root of the Apache server to
-```APACHE_DOCUMENT_ROOT=/var/www/public```.
+    ```DB_CONNECTION=mysql```, 
+    
+    ```DB_HOST=mariadb```, 
+    
+    ```DB_USERNAME=root```,
+    
+    ```DB_PASSWORD=root```
+9. Open your browser and navigate to phpmyadmin on ```localhost:8080```
 
+   Login with ```server=mariadb```, ```username=root```, ```password=root```
+   
+10. Inside this git repository run ```docker-compose exec workspace bash```. This will connect you to the dockerized server
+  
+11. Run ```php artisan key:generate``` in order to generate an ```APP_KEY``` right into your ```.env``` file
+   
+12. Run ```npm run watch``` to generate all required css and js files
 
-Save the file, change to the laradock direction and spin up the docker containers:
-```docker-compose up -d apache2 mariadb phpmyadmin```. This will take a while.
+13. Navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website
 
-Head to the project directory of this git repository and rename the ```.env.example``` file to ```.env```.
-
-Set ```DB_CONNECTION=mysql``` and ```DB_HOST=mariadb```. Adjust the database password with the password provided in the ```.env``` of Laradock (by default, the admin user is ```root``` and the password is also ```root```).
-
-Open your browser and navigate to ```localhost:8080```. You should the a phpmyadmin page. Login with the provided credentials in the last step and create a database with the same name you used in this projects ```.env``` file.
-
-Now open the terminal and navigate to this git repository. Type ```docker-compose exec workspace bash``` to connect to the dockerized server. Now run ```npm run watch```. The project should compile now. If everything works fine you can now navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website.
-
-If you got any problems with the setup process, feel free to contact Theo.
+If you got any problems with the setup process, feel free to contact Theo
 
 
 
