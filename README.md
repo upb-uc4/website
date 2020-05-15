@@ -1,7 +1,16 @@
 ## Screenshots
 
-### Landing Page Draft
-![Landing Page (First Draft)](./public/img/screenshots/landing.png)
+### Landing Page Draft 1/4
+![Landing Page (First Draft)](./public/img/screenshots/landing_01.png)
+
+### Landing Page Draft 2/4
+![Landing Page (First Draft)](./public/img/screenshots/landing_02.png)
+
+### Landing Page Draft 3/4
+![Landing Page (First Draft)](./public/img/screenshots/landing_03.png)
+
+### Landing Page Draft 4/4
+![Landing Page (First Draft)](./public/img/screenshots/landing_04.png)
 
 ### About Page Draft
 ![About (First Draft)](./public/img/screenshots/about.png)
