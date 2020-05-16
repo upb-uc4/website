@@ -15,6 +15,10 @@
 ### About Page Draft
 ![About (First Draft)](./public/img/screenshots/about.png)
 
+### F.A.Q Page Draft
+![Faq (First Draft)](./public/img/screenshots/faq.png)
+
+
 ## Run this project locally with Docker
 
 1. ```git clone https://github.com/Laradock/laradock.git```
