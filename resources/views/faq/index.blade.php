@@ -7,7 +7,7 @@
 
         <div class="max-w-screen-xl mx-auto px-6">
             <div class="mt-32 flex">
-                <div class="w-1/3 mr-8 lg:mr-0">
+                <div class="w-1/3 mr-8 lg:mr-0 self-start sticky top-0 pt-5">
                     <ul class="text-xl font-semibold tracking-tight ml-8">
                         <li class=""><a href="#general">General</a></li>
                         <li class="mt-6"><a href="#technologies">Technologies</a></li>
