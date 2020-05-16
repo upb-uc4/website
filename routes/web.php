@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/faq', function () {
-    return view('faq');
+    return view('faq/index');
 });
 
 Route::get('/about/people', function () {
