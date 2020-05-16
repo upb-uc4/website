@@ -17,7 +17,7 @@
                         <a href="/about/people" class="block">
                             <p class="tracking-wide text-gray-800 mr-8">About us</p>
                         </a>
-                        <a href="/" class="block">
+                        <a href="/faq" class="block">
                             <p class="tracking-wide text-gray-800 mr-8">FAQ</p>
                         </a>
                     </div>
