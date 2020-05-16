@@ -6,7 +6,7 @@
         @include('layouts/headline', ["headline" => "Meet the Team", "tagline" => "This is us, the team behind UC4. We are a group of passionate Master's students at the Paderborn University who work hard to make your everyday life at campus more simple."])
 
 
-        <div class="flex justify-center">
+        <div class="flex mt-24 justify-center">
             <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
                 @for ($i = 0; $i < 4; $i++)
                     <avatar name="Jon" lastname="Doe" title="Supervisor"></avatar>
