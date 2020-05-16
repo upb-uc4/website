@@ -16,9 +16,9 @@
                 </div>
 
                 <div class="w-full md:w-2/3 md:pl-16 p-8 pt-0 md:border-l border-gray-400">
-                    @include('faq/components/section', ['title' => 'General'])
-                    @include('faq/components/section', ['title' => 'Technologies'])
-                    @include('faq/components/section', ['title' => 'Security'])
+                    @include('faq.components.category', ['title' => 'General'])
+                    @include('faq.components.category', ['title' => 'Technologies'])
+                    @include('faq.components.category', ['title' => 'Security'])
                 </div>
             </div>
         </div>
