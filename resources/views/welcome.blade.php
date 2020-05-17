@@ -201,4 +201,70 @@
             </div>
         </div>
     </section>
+
+    <section class="pb-20 relative block bg-gray-800">
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+            <div class="flex flex-wrap text-center justify-center">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold text-white">Cutting Edge Technology</h2>
+                    <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                        We believe that in order to supply you with the best possible product,
+                        it is inevitable to rely only on the best and most fitting technologies.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap mt-12 justify-center">
+                <div class="w-full lg:w-3/12 px-4 text-center">
+                    <img class="w-64 h-64 inline-flex items-center justify-center" src="{{ asset('/img/logos/scala.svg') }}">
+                    <h5 class="text-xl mt-5 font-semibold text-white">
+                        Scala
+                    </h5>
+                    <p class="mt-2 mb-4 text-gray-500">
+                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Fry, we have a crate to deliver.
+                    </p>
+                </div>
+                <div class="w-full lg:w-3/12 px-4 text-center">
+                    <img class="w-64 h-64 inline-flex items-center justify-center" src="{{ asset('/img/logos/hyperledger.svg') }}">
+                    <h5 class="text-xl mt-5 font-semibold text-white">
+                        Hyperledger Fabric
+                    </h5>
+                    <p class="mt-2 mb-4 text-gray-500">
+                        Well, thanks to the Internet, I'm now bored with sex.
+                        Is there a place on the web?
+                    </p>
+                </div>
+                <div class="w-full lg:w-3/12 px-4 text-center">
+                    <img class="w-64 h-64 inline-flex items-center justify-center" src="{{ asset('/img/logos/akka.svg') }}">
+                    <h5 class="text-xl mt-5 font-semibold text-white">
+                        Akka
+                    </h5>
+                    <p class="mt-2 mb-4 text-gray-500">
+                        When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?"
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-3/12 px-4 text-center">
+                    <img class="w-64 h-64 inline-flex items-center justify-center" src="{{ asset('/img/logos/lagom.svg') }}">
+                    <h5 class="text-xl mt-5 font-semibold text-white">
+                        Lagom
+                    </h5>
+                    <p class="mt-2 mb-4 text-gray-500">
+                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Fry, we have a crate to deliver.
+                    </p>
+                </div>
+                <div class="w-full lg:w-3/12 px-4 text-center">
+                    <img class="my-16 w-32 h-32 inline-flex items-center justify-center" src="{{ asset('/img/logos/vue.svg') }}">
+                    <h5 class="text-xl mt-5 font-semibold text-white">
+                        Vue.js
+                    </h5>
+                    <p class="mt-2 mb-4 text-gray-500">
+                        Vue.js allows us to build beautiful and intuitive user interfaces
+                        to boost your productivity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
