@@ -1,17 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+    <section class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
         <div class="absolute top-0 w-full h-full bg-gray-100"></div>
         <div class="container relative mx-auto">
             <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
                 <div class="md:w-1/2">
                     <div class="md:mt-12">
-                        <h1 class="text-5xl font-extrabold text-gray-900">Engage with your peers</h1>
+                        <h1 class="text-5xl font-extrabold text-gray-900">Course Administration Has Never Been Easier</h1>
                     </div>
 
                     <div class="mt-4">
-                        <p class="font-medium text-lg text-gray-600 tracking-widest leading-loose">Connect with like-minded individuals and have meaningful discussions. Some more information here...</p>
+                        <p class="font-medium text-lg text-gray-600 tracking-widest leading-loose">
+                            <span class="text-blue-500">University Credits 4.0</span> is an educational project with the aim to design the course enrollment system of the future.
+
+                        </p>
                     </div>
 
                     <div class="mt-12">
@@ -32,7 +35,7 @@
                 <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
             </svg>
         </div>
-    </div>
+    </section>
 
     <section class="pb-20 bg-gray-300 -mt-32">
         <div class="container mx-auto px-4">
