@@ -196,7 +196,7 @@
                                 <div class="flex items-center">
                                     <div>
                                         <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                                            <i class="far fa-lock"></i>
+                                            <i class="fas fa-lock"></i>
                                         </span>
                                     </div>
                                     <div>
