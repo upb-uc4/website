@@ -8,12 +8,12 @@
 
         <div class="flex mt-24 mb-48 justify-center">
             <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
-                @for ($i = 0; $i < 4; $i++)
-                    <avatar name="Jon" lastname="Doe" title="Supervisor"></avatar>
-                    <avatar name="Jim" lastname="Panse" title="Technical Manager"></avatar>
-                    <avatar name="Volker" lastname="Putt" title="Hyperledger Engineer"></avatar>
-                    <avatar name="Lassmiranda" lastname="DeSiwillja" title="Frontend Developer"></avatar>
-                @endfor
+                @foreach($members as $member)
+                    <avatar name="{{ $member->name }}"
+                            lastname="{{ $member->last_name }}"
+                            title="{{ $member->title }}"
+                            image="{{ asset($member->image) }}"></avatar>
+                @endforeach
             </div>
         </div>
     </div>

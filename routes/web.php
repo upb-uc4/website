@@ -7,7 +7,4 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/faq', 'FaqController@index')->name('faq');
-
-Route::get('/about/people', function () {
-    return view('about.people');
-})->name('about');
+Route::get('/about/people', 'AboutController@index')->name('about');
