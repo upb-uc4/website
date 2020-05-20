@@ -34,11 +34,10 @@
         <div class="container mx-auto px-4 pt-8 lg:py-32">
             <div class="flex flex-wrap text-center justify-center">
                 <div class="w-full lg:w-6/12 px-4">
-                    <h2 class="text-4xl font-semibold text-white">I just want to talk</h2>
+                    <h2 class="text-4xl font-semibold text-white">Our Vision</h2>
                     <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                        It has nothing to do with mating. Fry, that doesn't make sense.
-                        I found what I need. And it's not friends, it's things. Ooh, name it after me! Bender, you risked your life to save me!
-                        Then we'll go with that data file! Yes, except the Dave Matthews Band doesn't rock. Really?! Soon enough.
+                        Universities are a place of knowledge. They stand for innovation and progress.
+                        We believe their administrative processes should reflect this, too!
                     </p>
                 </div>
             </div>
@@ -46,36 +45,35 @@
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div
                         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-medal text-xl"></i>
+                        <i class="fas fa-lock text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-white">
-                        Random Stuff
+                        Control Who Sees What
                     </h5>
                     <p class="mt-2 mb-4 text-gray-500">
-                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Fry, we have a crate to deliver.
+                        Our permission based approach ensures that only those who need to access your data can see it.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-poll text-xl"></i>
+                        <i class="fas fa-chart-line text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-white">
-                        More Random Stuff
+                        Plan for Tomorrow
                     </h5>
                     <p class="mt-2 mb-4 text-gray-500">
-                        Well, thanks to the Internet, I'm now bored with sex.
-                        Is there a place on the web that panders to my lust for violence?
+                        No matter how your requirements may change in the future, our system will seamlessly scale to your needs.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-lightbulb text-xl"></i>
+                        <i class="fas fa-users text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-white">
-                        Ding! Random Stuff
+                        Improve User Experience
                     </h5>
                     <p class="mt-2 mb-4 text-gray-500">
-                        When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?"
+                        Instead of soley focusing on the processes we build our system with the best possible user experience in mind.
                     </p>
                 </div>
             </div>
