@@ -198,13 +198,13 @@
         </div>
     </section>
 
-    <section class="py-20">
+    <section class="py-20 bg-gray-100">
         <div class="container mx-auto px-4">
             <div class="items-center flex flex-wrap">
                 <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
                     <img class="max-w-full rounded-lg shadow-lg"
-                        src="https://images.unsplash.com/photo-1527891751199-7225231a68dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9;fit=crop&amp;w=634&amp;q=80"
-                        alt="..."/>
+                        src="{{ asset('img/members/pg_team.png') }}"
+                        alt="Group Picture of the Project Team"/>
                 </div>
                 <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                     <div class="md:pr-12">
@@ -215,46 +215,11 @@
                             at an university; wooo. Maybe it helps us design systems that could actually benefit
                             students because we know about all the struggle.
                         </p>
-                        <ul class="list-none mt-6">
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                                            <i class="fas fa-fingerprint"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-gray-600">
-                                            Displaying random text
-                                        </h4>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                                            <i class="fas fa-university"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-gray-600">Academic knowledge</h4>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="flex items-center">
-                                    <div>
-                                        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                                            <i class="fas fa-lock"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-gray-600">Secure by design</h4>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                    </div>
+                    <div class="mt-12">
+                        <a href="/about/people" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                            Meet our team
+                        </a>
                     </div>
                 </div>
             </div>
