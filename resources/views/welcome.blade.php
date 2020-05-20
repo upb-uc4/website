@@ -43,10 +43,7 @@
             </div>
             <div class="flex flex-wrap mt-12 justify-center">
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <div
-                        class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-lock text-xl"></i>
-                    </div>
+                    <i class="fas fa-lock text-orange-400 text-5xl"></i>
                     <h5 class="text-xl mt-5 font-semibold text-white">
                         Control Who Sees What
                     </h5>
@@ -55,9 +52,7 @@
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-chart-line text-xl"></i>
-                    </div>
+                    <i class="fas fa-chart-line text-orange-400 text-5xl"></i>
                     <h5 class="text-xl mt-5 font-semibold text-white">
                         Plan for Tomorrow
                     </h5>
@@ -66,9 +61,7 @@
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-users text-xl"></i>
-                    </div>
+                    <i class="fas fa-users text-orange-400 text-5xl"></i>
                     <h5 class="text-xl mt-5 font-semibold text-white">
                         Improve User Experience
                     </h5>
@@ -80,7 +73,66 @@
         </div>
     </section>
 
-    <section class="pb-20 relative block bg-gray-800">
+    <section class="py-32 flex content-center items-center justify-center bg-gray-800">
+        <div class="container mx-auto">
+            <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
+                <div class="flex justify-center md:w-1/2">
+                    <img src="{{ asset('/img/logos/hyperledger.svg') }}" class="w-2/3 mr-32">
+                </div>
+
+                <div class="md:w-1/2">
+                    <div class="">
+                        <h1 class="text-4xl font-semibold text-white">Building Trust with Blockchain</h1>
+                        <h2 class="text-xl text-white">Distributed Ledger Technology</h2>
+                    </div>
+
+                    <div class="mt-4">
+                        <p class="mt-4 text-lg leading-relaxed text-gray-500">
+                            Pansy. Well, then good news! It's a suppository.
+                            Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
+                            No argument here. Who said that? SURE you can die! You want to die?!
+                        </p>
+                        <ul class="list-none mt-6">
+                            <li class="py-2">
+                                <div class="flex items-center">
+                                    <div>
+                                        <i class="fas fa-fingerprint text-3xl mr-3" style="color: #97D6D7;"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-500">
+                                            Displaying random text
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="flex items-center">
+                                    <div>
+                                        <i class="fas fa-university text-3xl mr-3" style="color: #97D6D7;"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-500">Academic knowledge</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="flex items-center">
+                                    <div>
+                                        <i class="fas fa-lock text-3xl mr-3" style="color: #97D6D7;"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-500">Secure by design</h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-20 relative block bg-gray-900">
         <div class="container mx-auto px-4 pt-8 lg:py-24 lg:pb-32">
             <div class="flex flex-wrap text-center justify-center">
                 <div class="w-full lg:w-6/12 px-4">
