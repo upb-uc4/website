@@ -31,6 +31,8 @@
     
     ```APACHE_DOCUMENT_ROOT=/var/www/public```.
 
+Note: The ```.env``` has to be adapted to the current OS. Hence, certain flags or options may have to be changed. Search for your running OS (eg. "windows") in the file and change the options according to the instructions.
+
 4. Save the file
 5. Spin up the docker containers; this may take a while:
 
@@ -56,13 +58,15 @@
     login with ```server=mariadb```, ```username=root```, ```password=root```
    
 10. Create a new database with the name ```uc4```.
-11. Inside this git repository run ```docker-compose exec workspace bash```. This will connect you to the dockerized server
+11. Inside the laradock folder run ```docker-compose exec workspace bash```. This will connect you to the dockerized server
   
-12. Run ```php artisan key:generate``` in order to generate an ```APP_KEY``` right into your ```.env``` file
+11.1. Run ```php artisan key:generate``` in order to generate an ```APP_KEY``` right into your ```.env``` file
    
-13. Run ```npm run watch``` to generate all required css and js files
+11.2. Run ```npm run watch``` to generate all required css and js files
 
-14. Navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website
+Note: You may have to install the composer packages (for ```php artisan key:generate```)  and the npm_modules (for ```npm run watch```) on the first try. If so, type ```composer-install``` or ```npm install``` accordingly.
+
+12. Navigate to ```localhost``` or ```localhost:3000``` (for hot reloads) and see the website
 
 If you got any problems with the setup process, feel free to contact Theo
 
