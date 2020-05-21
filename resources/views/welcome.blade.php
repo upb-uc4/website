@@ -197,7 +197,7 @@
         </div>
     </section>
 
-    <section class="py-20 bg-gray-100 bg-hero-circuit-board">
+    <section class="py-20 bg-gray-100">
         <div class="container mx-auto px-4">
             <div class="items-center flex flex-wrap">
                 <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -211,7 +211,7 @@
                         <h3 class="text-xl">Paderborn University, Germany</h3>
                         <p class="mt-4 text-lg leading-relaxed text-gray-600">
                             <span class="text-blue-500">University Credits 4.0</span> is a joint effort of highly motivated
-                            Master's student at the Paderborn University. The project is actively maintained under the
+                            Master's students at Paderborn University. The project is actively maintained under the
                             <a href="https://github.com/upb-uc4/"
                                class="text-blue-500 underline focus:text-blue-700 hover:text-blue-700">
                                 MIT open-source licence.
