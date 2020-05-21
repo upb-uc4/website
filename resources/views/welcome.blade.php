@@ -168,7 +168,7 @@
                         Akka
                     </h5>
                     <p class="mt-2 text-gray-500">
-                        When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?"
+                        Lightning fast communication between highly concurrent and distributed system due to Akka.
                     </p>
                 </div>
             </div>
