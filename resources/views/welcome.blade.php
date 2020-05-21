@@ -180,7 +180,7 @@
                         Scala
                     </h5>
                     <p class="mt-2 text-gray-500">
-                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Fry, we have a crate to deliver.
+                        Because we realize that reliability is extremely important in the context of university administration.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
