@@ -36,7 +36,7 @@
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold text-white">Our Vision</h2>
                     <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                        Universities are a place of knowledge. They stand for innovation and progress.
+                        Universities are a place of knowledge. They represent innovation and progress like no other.
                         We believe their administrative processes should reflect this too!
                     </p>
                 </div>
