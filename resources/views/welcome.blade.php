@@ -159,8 +159,7 @@
                         Docker
                     </h5>
                     <p class="mt-2 text-gray-500">
-                        Well, thanks to the Internet, I'm now bored with sex.
-                        Is there a place on the web?
+                        Unleash the full potential of UC4 without compromises on nearly every operating system, thanks to Docker.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
