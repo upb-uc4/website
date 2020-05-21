@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <section class="py-32 flex content-center items-center justify-center bg-gray-800">
+    <section class="py-32 flex content-center items-center justify-center bg-gray-800 bg-hero-circuit-board">
         <div class="container mx-auto">
             <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
                 <div class="flex justify-center md:w-1/2">
