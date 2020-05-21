@@ -210,7 +210,7 @@
                         <h3 class="text-3xl font-semibold">Academic Research Group</h3>
                         <h3 class="text-xl">Paderborn University, Germany</h3>
                         <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                            <span class="text-blue-500">University Credits 4.0</span> is a join effort of highly motivated
+                            <span class="text-blue-500">University Credits 4.0</span> is a joint effort of highly motivated
                             Master's student at the Paderborn University. The project is actively maintained under the
                             <a href="https://github.com/upb-uc4/"
                                class="text-blue-500 underline focus:text-blue-700 hover:text-blue-700">
