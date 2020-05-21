@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="h-full bg-gray-100 font-sans">
+    <div class="bg-gray-100 font-sans">
 
         @include('layouts/headline', ["headline" => "Meet the Team", "tagline" => "This is us, the team behind UC4. We are a group of passionate Master's students at the Paderborn University who work hard to make your everyday life at campus more simple."])
 
