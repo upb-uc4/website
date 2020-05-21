@@ -145,7 +145,7 @@
             </div>
             <div class="flex flex-wrap mt-12 justify-center">
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <img class="w-48 h-32 inline-flex justify-center" src="{{ asset('/img/logos/lagom.svg') }}">
+                    <img class="w-48 h-32 inline-flex justify-center" src="{{ asset('/img/logos/lagom-icon.svg') }}">
                     <h5 class="text-xl font-semibold text-white">
                         Lagom
                     </h5>
@@ -154,7 +154,7 @@
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <img class="w-48 h-32 object-scale-down inline-flex justify-center" src="{{ asset('/img/logos/docker-alt.png') }}">
+                    <img class="w-48 h-32 object-scale-down inline-flex justify-center" src="{{ asset('/img/logos/docker-alt-icon.png') }}">
                     <h5 class="text-xl font-semibold text-white">
                         Docker
                     </h5>
@@ -164,7 +164,7 @@
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <img class="w-48 h-32 inline-flex justify-center" src="{{ asset('/img/logos/akka.svg') }}">
+                    <img class="w-48 h-32 inline-flex justify-center" src="{{ asset('/img/logos/akka-icon.svg') }}">
                     <h5 class="text-xl font-semibold text-white">
                         Akka
                     </h5>
