@@ -37,7 +37,7 @@
                     <h2 class="text-4xl font-semibold text-white">Our Vision</h2>
                     <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                         Universities are a place of knowledge. They stand for innovation and progress.
-                        We believe their administrative processes should reflect this, too!
+                        We believe their administrative processes should reflect this too!
                     </p>
                 </div>
             </div>
