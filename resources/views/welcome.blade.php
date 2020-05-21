@@ -198,7 +198,7 @@
         </div>
     </section>
 
-    <section class="py-20 bg-gray-100">
+    <section class="py-20 bg-gray-100 bg-hero-circuit-board">
         <div class="container mx-auto px-4">
             <div class="items-center flex flex-wrap">
                 <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
