@@ -26,7 +26,7 @@ module.exports = {
 
             // The foreground opacity
             opacity: {
-                default: "0.1",
+                default: "0.05",
                 "100": "1.0"
             }
         }),
