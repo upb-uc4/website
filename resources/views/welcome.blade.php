@@ -150,7 +150,7 @@
                         Lagom
                     </h5>
                     <p class="mt-2 text-gray-500">
-                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Fry, we have a crate to deliver.
+                        We use utilize the power of microservices to build a flexible system that easily adjusts to your needs.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
