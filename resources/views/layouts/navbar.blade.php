@@ -29,9 +29,6 @@
                         <a class="block flex hover:text-gray-700 mr-5" href="https://twitter.com/uc4_official">
                             <i class="fab fa-2x fa-twitter"></i>
                         </a>
-                        <a class="block flex hover:text-gray-700 mr-5" href="">
-                            <i class="fas fa-2x fa-envelope"></i>
-                        </a>
                     </div>
 
                 </div>

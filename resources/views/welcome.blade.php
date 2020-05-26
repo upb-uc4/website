@@ -11,7 +11,7 @@
 
                     <div class="mt-4">
                         <p class="font-medium text-lg text-gray-600 tracking-widest leading-loose">
-                            <span class="text-blue-500">University Credits 4.0</span> is an educational project with the aim to design the course enrollment system of the future.
+                            <span class="text-blue-500">University Credits 4.0</span> is an educational project with the aim to prototype the credit management system of the future.
 
                         </p>
                     </div>
@@ -48,16 +48,16 @@
                         Control Who Sees What
                     </h5>
                     <p class="mt-2 mb-4 text-gray-500">
-                        Our permission based approach ensures that only those who need to access your data can see it.
+                        Our permission based blockchain ensures that only those who need to access your data can see it.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
-                    <i class="fas fa-chart-line text-orange-400 text-5xl"></i>
+                    <i class="fas fa-upload text-orange-400 text-5xl"></i>
                     <h5 class="text-xl mt-5 font-semibold text-white">
-                        Plan for Tomorrow
+                        Automate Your Workflow
                     </h5>
                     <p class="mt-2 mb-4 text-gray-500">
-                        No matter how your requirements may change in the future, our system will seamlessly scale to your needs.
+                        Digitalize your administrative processes and reduce the overhead of wasteful paperwork.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
@@ -88,9 +88,10 @@
 
                     <div class="mt-4">
                         <p class="mt-4 text-lg leading-relaxed text-gray-500">
-                            Pansy. Well, then good news! It's a suppository.
-                            Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
-                            No argument here. Who said that? SURE you can die! You want to die?!
+                            The core of our application, the ledger, is based upon Hyperledger Fabric,
+                            an open-source project by the Linux Foundation. It allows for a decentralized
+                            credit management system. This eliminates the current single point
+                            of failure, the university's server.
                         </p>
                         <ul class="list-none mt-6">
                             <li class="py-2">
@@ -100,7 +101,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-semibold text-gray-500">
-                                            Displaying random text
+                                            Digital proof of students' credit record
                                         </h4>
                                     </div>
                                 </div>
@@ -111,7 +112,7 @@
                                         <i class="fas fa-university text-3xl mr-3" style="color: #97D6D7;"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-semibold text-gray-500">Academic knowledge</h4>
+                                        <h4 class="font-semibold text-gray-500">No single point of failure due to decentralisation</h4>
                                     </div>
                                 </div>
                             </li>
@@ -121,7 +122,7 @@
                                         <i class="fas fa-lock text-3xl mr-3" style="color: #97D6D7;"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-semibold text-gray-500">Secure by design</h4>
+                                        <h4 class="font-semibold text-gray-500">Secure by state of the art cryptography</h4>
                                     </div>
                                 </div>
                             </li>
@@ -150,7 +151,7 @@
                         Lagom
                     </h5>
                     <p class="mt-2 text-gray-500">
-                        We use utilize the power of microservices to build a flexible system that easily adjusts to your needs.
+                        We utilize the power of microservices to build a flexible system that easily adjusts to your needs.
                     </p>
                 </div>
                 <div class="w-full lg:w-3/12 px-4 text-center">
@@ -207,11 +208,11 @@
                 </div>
                 <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                     <div class="md:pr-12">
-                        <h3 class="text-3xl font-semibold">Academic Research Group</h3>
+                        <h3 class="text-3xl font-semibold">Academic Project Group</h3>
                         <h3 class="text-xl">Paderborn University, Germany</h3>
                         <p class="mt-4 text-lg leading-relaxed text-gray-600">
                             <span class="text-blue-500">University Credits 4.0</span> is a joint effort of highly motivated
-                            Master's students at Paderborn University. The project is actively maintained under the
+                            Master's students at Paderborn University. The one-year project is actively maintained under the
                             <a href="https://github.com/upb-uc4/"
                                class="text-blue-500 underline focus:text-blue-700 hover:text-blue-700">
                                 MIT open-source licence.
