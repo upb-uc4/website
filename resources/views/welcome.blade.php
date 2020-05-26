@@ -88,7 +88,7 @@
 
                     <div class="mt-4">
                         <p class="mt-4 text-lg leading-relaxed text-gray-500">
-                            The core of our application, the ledger, is based upon Hyperledger Fabric,
+                            The core of our application, the ledger, is based upon <a href="https://www.hyperledger.org/use/fabric"><span style="color: #97D6D7;">Hyperledger Fabric</span></a>,
                             an open-source project by the Linux Foundation. It allows for a decentralized
                             credit management system. This eliminates the current single point
                             of failure, the university's server.
