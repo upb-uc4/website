@@ -9,10 +9,10 @@
                     </div>
 
                     <div class="w-1/2 flex items-center justify-end text-md font-medium tracking-wide text-gray-500">
-                        <a href="" class="block">
+                        <a href="{{ route('privacy') }}" class="block">
                             <p class="mr-8 hover:text-gray-700">Privacy Policy</p>
                         </a>
-                        <a href="" class="block">
+                        <a href="{{ route('legal') }}" class="block">
                             <p class="hover:text-gray-700">Legal</p>
                         </a>
                     </div>
