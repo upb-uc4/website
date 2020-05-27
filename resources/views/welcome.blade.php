@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="mt-12">
-                        <a href="/about/people" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                        <a href="{{ route('about') }}" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
                             Learn more
                         </a>
                     </div>
@@ -220,7 +220,7 @@
                         </p>
                     </div>
                     <div class="mt-12">
-                        <a href="/about/people" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                        <a href="{{ route('about') }}" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
                             Meet our team
                         </a>
                     </div>
