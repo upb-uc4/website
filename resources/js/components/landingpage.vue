@@ -76,7 +76,7 @@
             <div class="container mx-auto">
                 <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
                     <div class="flex justify-center md:w-1/2">
-                        <img :src="image_hyperledger" class="w-2/3 mr-32">
+                        <img :src="image_hyperledger" @click="linkTo('https://www.hyperledger.org/use/fabric')" class="w-2/3 mr-32 cursor-pointer">
                     </div>
 
                     <div class="md:w-1/2">
@@ -145,7 +145,7 @@
                 </div>
                 <div class="flex flex-wrap mt-12 justify-center">
                     <div class="w-full lg:w-3/12 px-4 text-center">
-                        <img class="w-48 h-32 inline-flex justify-center" :src="image_lagom">
+                        <img class="w-48 h-32 inline-flex justify-center cursor-pointer" :src="image_lagom" @click="linkTo('https://www.lagomframework.com')">
                         <h5 class="text-xl font-semibold text-white">
                             Lagom
                         </h5>
@@ -154,7 +154,7 @@
                         </p>
                     </div>
                     <div class="w-full lg:w-3/12 px-4 text-center">
-                        <img class="w-48 h-32 object-scale-down inline-flex justify-center" :src="image_docker">
+                        <img class="w-48 h-32 object-scale-down inline-flex justify-center cursor-pointer" :src="image_docker" @click="linkTo('https://www.docker.com')">
                         <h5 class="text-xl font-semibold text-white">
                             Docker
                         </h5>
@@ -163,7 +163,7 @@
                         </p>
                     </div>
                     <div class="w-full lg:w-3/12 px-4 text-center">
-                        <img class="w-48 h-32 inline-flex justify-center" :src="image_akka">
+                        <img class="w-48 h-32 inline-flex justify-center cursor-pointer" :src="image_akka" @click="linkTo('https://akka.io')">
                         <h5 class="text-xl font-semibold text-white">
                             Akka
                         </h5>
@@ -175,7 +175,7 @@
 
                 <div class="flex flex-wrap justify-center mt-12">
                     <div class="w-full lg:w-3/12 px-4 text-center">
-                        <img class="my-8 w-24 h-16 object-scale-down inline-flex justify-center" :src="image_scala">
+                        <img class="my-8 w-24 h-16 object-scale-down inline-flex justify-center cursor-pointer" :src="image_scala" @click="linkTo('https://www.scala-lang.org')">
                         <h5 class="text-xl font-semibold text-white">
                             Scala
                         </h5>
@@ -184,7 +184,7 @@
                         </p>
                     </div>
                     <div class="w-full lg:w-3/12 px-4 text-center">
-                        <img class="my-8 w-24 h-16 inline-flex justify-center" :src="image_vue">
+                        <img class="my-8 w-24 h-16 inline-flex justify-center cursor-pointer" :src="image_vue" @click="linkTo('https://vuejs.org')">
                         <h5 class="text-xl font-semibold text-white">
                             Vue.js
                         </h5>
@@ -243,7 +243,11 @@
             'image_akka',
             'image_pg',
             'route_about',
-
-        ]
+        ],
+        methods: {
+            linkTo(destination) {
+                window.location.href = destination;
+            },
+        }
     }
 </script>
