@@ -11,7 +11,14 @@
 <body class="bg-gray-100">
 <div id="app">
     <nav>
-        @include('layouts/navbar')
+        <navbar
+            active_route_home="{{ Route::is('home') }}"
+            active_route_about="{{ Route::is('about') }}"
+            active_route_faq="{{ Route::is('faq') }}"
+            route_home="{{ route('home') }}"
+            route_about="{{ route('about') }}"
+            route_faq="{{ route('faq') }}">
+        </navbar>
     </nav>
 
     <main>
