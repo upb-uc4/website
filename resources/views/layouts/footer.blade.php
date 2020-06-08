@@ -8,14 +8,7 @@
                         <p>&copy; University Credits 4.0</p>
                     </div>
 
-                    <div class="w-1/2 flex items-center justify-end text-md font-medium tracking-wide text-gray-500">
-                        <a href="{{ route('privacy') }}" class="block">
-                            <p class="mr-8 hover:text-gray-700">Privacy Policy</p>
-                        </a>
-                        <a href="{{ route('legal') }}" class="block">
-                            <p class="hover:text-gray-700">Legal</p>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
