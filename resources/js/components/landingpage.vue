@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="pt-16 mb-32 flex content-center items-center justify-center bg-gray-100" style="min-height: 75vh;">
+        <section class="lg:pt-16 mb-32 flex content-center items-center justify-center bg-gray-100" style="min-height: 75vh;">
             <div class="container relative mx-auto">
                 <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
                     <div class="md:w-1/2">
@@ -22,7 +22,7 @@
                         </div>
                     </div>
 
-                    <div class="md:w-1/2">
+                    <div class="md:w-1/2 md:mt-0 mt-16">
                         <img :src="image_hero" class="md:mt-8">
                     </div>
                 </div>
@@ -72,7 +72,7 @@
             </div>
         </section>
 
-        <section class="py-32 flex content-center items-center justify-center bg-gray-800 bg-hero-circuit-board">
+        <section class="py-8 md:py-32 flex content-center items-center justify-center bg-gray-800 bg-hero-circuit-board">
             <div class="container mx-auto">
                 <div class="md:flex w-full max-w-screen-xl mx-auto px-6">
                     <div class="flex justify-center md:w-1/2">
@@ -137,13 +137,13 @@
                 <div class="flex flex-wrap text-center justify-center">
                     <div class="w-full lg:w-6/12 px-4">
                         <h2 class="text-4xl font-semibold text-white">Cutting Edge Technology</h2>
-                        <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                        <p class="text-lg leading-relaxed mt-4 md:mb-4 text-gray-500">
                             We believe that in order to supply you with the best possible product,
                             it is inevitable to rely only on the best and most fitting technologies.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-wrap mt-12 justify-center">
+                <div class="flex flex-wrap mt-2 md:mt-12 justify-center">
                     <div class="w-full lg:w-3/12 px-4 text-center">
                         <img class="w-48 h-32 inline-flex justify-center cursor-pointer" :src="image_lagom" @click="linkTo('https://www.lagomframework.com')">
                         <h5 class="text-xl font-semibold text-white">
@@ -173,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap justify-center mt-12">
+                <div class="flex flex-wrap justify-center mt-2 md:mt-12">
                     <div class="w-full lg:w-3/12 px-4 text-center">
                         <img class="my-8 w-24 h-16 object-scale-down inline-flex justify-center cursor-pointer" :src="image_scala" @click="linkTo('https://www.scala-lang.org')">
                         <h5 class="text-xl font-semibold text-white">
@@ -197,7 +197,7 @@
             </div>
         </section>
 
-        <section class="py-20 bg-gray-100">
+        <section class="py-8 md:py-20 bg-gray-100">
             <div class="container mx-auto px-4">
                 <div class="items-center flex flex-wrap">
                     <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -205,8 +205,8 @@
                              :src="image_pg"
                              alt="Group Picture of the Project Team"/>
                     </div>
-                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                        <div class="md:pr-12">
+                    <div class="w-full md:w-5/12 mt-4 md:mt-0 ml-auto mr-auto px-4">
+                        <div class="lg:pr-12">
                             <h3 class="text-3xl font-semibold">Academic Project Group</h3>
                             <h3 class="text-xl">Paderborn University, Germany</h3>
                             <p class="mt-4 text-lg leading-relaxed text-gray-600">
