@@ -16,9 +16,9 @@
                         </div>
 
                         <div class="mt-12">
-                            <a href="" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                            <button @click="scrollToVision" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
                                 Learn more
-                            </a>
+                            </button>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@
             <div class="container mx-auto px-4 pt-8 lg:py-32">
                 <div class="flex flex-wrap text-center justify-center">
                     <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold text-white">Our Vision</h2>
+                        <h2 class="text-4xl font-semibold text-white" ref="vision">Our Vision</h2>
                         <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                             Universities are a place of knowledge. They represent innovation and progress like no other.
                             We believe their administrative processes should reflect this too!
@@ -248,6 +248,12 @@
             linkTo(destination) {
                 window.location.href = destination;
             },
+            scrollToVision() {
+                const visionSection = this.$refs.vision;
+                if (visionSection) {
+                    visionSection.scrollIntoView({behavior: 'smooth'});
+                }
+            }
         }
     }
 </script>
