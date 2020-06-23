@@ -9,7 +9,7 @@
         image_akka="{{ asset('/img/logos/akka-icon.svg') }}"
         image_scala="{{ asset('/img/logos/scala-spiral.png') }}"
         image_vue="{{ asset('/img/logos/vue.svg') }}"
-        image_pg="{{ asset('img/members/pg_team.png') }}"
+        image_pg="{{ asset('img/members/pg_team.jpg') }}"
         route_about="{{ route('about') }}"
         >
     </landing-page>
