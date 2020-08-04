@@ -214,7 +214,7 @@
                                 Master's students at Paderborn University. The one-year project is actively maintained under the
                                 <a href="https://github.com/upb-uc4/"
                                    class="text-blue-500 underline focus:text-blue-700 hover:text-blue-700">
-                                    MIT open-source licence.
+                                    Apache-2.0 open-source licence.
                                 </a>
                             </p>
                         </div>
