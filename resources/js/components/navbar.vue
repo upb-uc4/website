@@ -6,9 +6,10 @@
 
                     <div class="hidden sm:flex items-center justify-between">
                         <div>
-                            <img src="../../../public/img/logos/uc4/logo_long_title_right.svg">
+                            <a href="/" class="block">
+                                <img src="../../../public/img/logos/uc4/logo_long_title_right.svg">
+                            </a>
                         </div>
-
                         <div class="flex items-center text-lg font-medium tracking-wide text-gray-500">
                             <a :href="route_home" class="block">
                                 <p class="mr-8 border-b-4" :class="active_route_home ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">Home</p>
@@ -33,8 +34,8 @@
 
                     <div class="sm:hidden flex items-center justify-between" :class="isOpen ? 'mt-4' : 'mt-0'">
                         <div>
-                            <a href="/" class="block">
-                                <h1 class="text-gray-800 font-black"><span class="text-blue-700">University</span> Credits <span class="text-blue-700">4</span>.0</h1>
+                            <a href="/" class="block w-2/3">
+                                <img src="../../../public/img/logos/uc4/logo_long_title_right.svg">
                             </a>
                         </div>
                         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-gray-700 focus:outline-none">
