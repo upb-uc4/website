@@ -7,7 +7,7 @@
                     <div class="hidden sm:flex items-center justify-between">
                         <div>
                             <a href="/" class="block">
-                                <h1 class="xl:text-2xl md:text-xl text-gray-800 font-black"><span class="text-blue-500">University</span> Credits <span class="text-blue-500">4</span>.0</h1>
+                                <img src="../../../public/img/logos/uc4/logo-long-title-right.svg" class="w-64 " alt="University Credits 4.0 Logo">
                             </a>
                         </div>
 
@@ -35,8 +35,8 @@
 
                     <div class="sm:hidden flex items-center justify-between" :class="isOpen ? 'mt-4' : 'mt-0'">
                         <div>
-                            <a href="/" class="block">
-                                <h1 class="text-gray-800 font-black"><span class="text-blue-500">University</span> Credits <span class="text-blue-500">4</span>.0</h1>
+                            <a href="/" class="block w-2/3">
+                                <img src="../../../public/img/logos/uc4/logo-long-title-right.svg" alt="University Credits 4.0 Logo">
                             </a>
                         </div>
                         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-gray-700 focus:outline-none">
