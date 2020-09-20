@@ -13,13 +13,13 @@
 
                         <div class="flex items-center text-lg font-medium tracking-wide text-gray-500">
                             <a :href="route_home" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_home ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">Home</p>
+                                <p class="mr-8 border-b-4" :class="active_route_home ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">Home</p>
                             </a>
                             <a :href="route_about" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_about ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">About</p>
+                                <p class="mr-8 border-b-4" :class="active_route_about ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">About</p>
                             </a>
                             <a :href="route_faq" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_faq ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">FAQ</p>
+                                <p class="mr-8 border-b-4" :class="active_route_faq ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">FAQ</p>
                             </a>
                         </div>
 
