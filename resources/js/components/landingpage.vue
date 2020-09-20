@@ -16,7 +16,7 @@
                         </div>
 
                         <div class="mt-12">
-                            <button @click="scrollToVision" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                            <button @click="scrollToVision" class="w-1/3 bg-blue-700 hover:bg-blue-800 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
                                 Learn more
                             </button>
                         </div>
@@ -213,7 +213,7 @@
                                 <span class="text-blue-500">University Credits 4.0</span> is a joint effort of highly motivated
                                 Master's students at Paderborn University. The one-year project is actively maintained under the
                                 <a href="https://github.com/upb-uc4/"
-                                   class="text-blue-500 underline focus:text-blue-700 hover:text-blue-700">
+                                   class="text-blue-500 underline focus:text-blue-800 hover:text-blue-800">
                                     Apache-2.0 open-source licence.
                                 </a>
                             </p>
