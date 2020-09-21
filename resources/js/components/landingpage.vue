@@ -219,7 +219,7 @@
                             </p>
                         </div>
                         <div class="mt-12">
-                            <a :href="route_about" class="w-1/3 bg-blue-500 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                            <a :href="route_about" class="w-1/3 bg-blue-700 hover:bg-blue-800 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
                                 Meet our team
                             </a>
                         </div>
