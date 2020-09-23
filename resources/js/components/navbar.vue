@@ -7,19 +7,19 @@
                     <div class="hidden sm:flex items-center justify-between">
                         <div>
                             <a href="/" class="block">
-                                <h1 class="xl:text-2xl md:text-xl text-gray-800 font-black"><span class="text-blue-500">University</span> Credits <span class="text-blue-500">4</span>.0</h1>
+                                <img src="../../../public/img/logos/uc4/logo-long-title-right.svg" class="w-64 " alt="University Credits 4.0 Logo">
                             </a>
                         </div>
 
                         <div class="flex items-center text-lg font-medium tracking-wide text-gray-500">
                             <a :href="route_home" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_home ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">Home</p>
+                                <p class="mr-8 border-b-4" :class="active_route_home ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">Home</p>
                             </a>
                             <a :href="route_about" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_about ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">About</p>
+                                <p class="mr-8 border-b-4" :class="active_route_about ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">About</p>
                             </a>
                             <a :href="route_faq" class="block">
-                                <p class="mr-8 border-b-4" :class="active_route_faq ? 'text-blue-500 border-blue-500 hover:text-blue-700' : 'border-gray-100 hover:text-gray-700'">FAQ</p>
+                                <p class="mr-8 border-b-4" :class="active_route_faq ? 'text-blue-700 border-blue-700 hover:text-blue-800' : 'border-gray-100 hover:text-gray-700'">FAQ</p>
                             </a>
                         </div>
 
@@ -35,8 +35,8 @@
 
                     <div class="sm:hidden flex items-center justify-between" :class="isOpen ? 'mt-4' : 'mt-0'">
                         <div>
-                            <a href="/" class="block">
-                                <h1 class="text-gray-800 font-black"><span class="text-blue-500">University</span> Credits <span class="text-blue-500">4</span>.0</h1>
+                            <a href="/" class="block w-2/3">
+                                <img src="../../../public/img/logos/uc4/logo-long-title-right.svg" alt="University Credits 4.0 Logo">
                             </a>
                         </div>
                         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-gray-700 focus:outline-none">
