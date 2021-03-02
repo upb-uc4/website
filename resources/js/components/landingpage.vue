@@ -16,9 +16,9 @@
                         </div>
 
                         <div class="mt-12">
-                            <button @click="scrollToVision" class="w-1/3 bg-blue-700 hover:bg-blue-800 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
-                                Learn more
-                            </button>
+                            <a href="/deploy" target="_blank" class="cursor-pointer w-1/3 bg-blue-700 hover:bg-blue-800 focus:outline-none text-white font-semibold tracking-widest py-4 px-4 uppercase rounded-lg focus:shadow-outline">
+                                Try it out
+                            </a>
                         </div>
                     </div>
 
